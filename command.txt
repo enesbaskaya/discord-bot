@@ -1,0 +1,8 @@
+clear
+mycommands
+copy
+play
+pause
+resume
+stop
+disconnect

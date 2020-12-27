@@ -1,0 +1,3 @@
+discord
+youtube_dl
+aiohttp>=3.6.0,<3.8.0
