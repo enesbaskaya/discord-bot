@@ -156,13 +156,10 @@ async def stop(ctx):
     else:
         print('No music playing failed to stop')
         await ctx.send('No music playing failed to stop')
-        
-@Bot.command(aliases=['game', 'oyun'])
-async def whatsup(ctx, *args):
-    if "roll" in args:
-        await ctx.send(game.roll_dice())
-    else:
-        await ctx.send('iyi sen nasılsın')
+
+@bot.command()
+async def whatsup(ctx):
+    await ctx.send('iyi sen nasılsın')
 
 
 
