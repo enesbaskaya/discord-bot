@@ -164,4 +164,4 @@ async def whatsup(ctx):
 
 
 # botun çalıştırılması
-bot.run('NzkxOTgxMzgzMjQ0MzE2Njcz.X-XEJA.ZO2LjHltPzAkgghdid2I9JfVlbQ')
+bot.run(TOKEN)
